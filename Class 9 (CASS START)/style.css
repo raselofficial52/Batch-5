@@ -55,3 +55,10 @@ div{
     padding:15px;
 
 }
+body{
+    background:url("2.jpg"),
+    url("images.png");
+    background-size:300px,500px;
+    background-repeat: space;
+    background-position:0px 500px,0px 0px;
+}
