@@ -1,0 +1,12 @@
+/* .box{
+    width:500px;
+    height:200px;
+    margin-top:20%;
+    margin-left: 50%;
+
+    border-image-source: url(1.png);
+    border-image-slice: 158;
+} */
+table{
+    border-collapse: separate;
+}
