@@ -68,7 +68,8 @@ body{
     /* border-top-right-radius: 20px;
     border-bottom-right-radius: 20px; */
 /* border-radius:20px 5px 6px 10px; */
-border-image-source:url("1.png") ;
+border:30px solid;
+border-image-source: url("1.png");
 
 
 }
