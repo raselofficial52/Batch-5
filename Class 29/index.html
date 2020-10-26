@@ -4,39 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frontendor | Component</title>
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="responsib.css">
 
    
 </head>
 <body>
 
-    <!-- <div class="box"></div> -->
+    <!-- https://tobiasahlin.com/moving-letters/ -->
+
+ <div class="parent">
+        <span>R</span><span>a</span><span>s</span><span>e</span><span>l</span>
+</div>
 
 
-    <!-- <div class="box">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, eaque?</p>
-        <h1>Banglades</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, eaque?</p>
+    <!-- <h1 class="ml2">Sunny mornings</h1>
 
-        <div class="div">
-            <p>Lorem ipsum dolor sit amet.</p>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <p>Lorem ipsum dolor sit amet.</p>
-        </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
-    </div> -->
+<script>
 
+    // Wrap every letter in a span
+var textWrapper = document.querySelector('.ml2');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
-    <!-- <div class="box">
-
-    </div> -->
-
-    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <path fill="#000" d="M39.4,-46.7C49.1,-38.9,53.5,-24.5,55.6,-10.1C57.8,4.3,57.7,18.8,53.5,35.4C49.2,52,40.9,70.8,28.2,73.8C15.5,76.9,-1.6,64.2,-20.6,57.1C-39.5,49.9,-60.2,48.3,-72.8,37C-85.3,25.6,-89.7,4.5,-84.7,-13.3C-79.6,-31.1,-65.1,-45.7,-49.4,-52.5C-33.7,-59.3,-16.8,-58.4,-1,-57.2C14.9,-56,29.8,-54.6,39.4,-46.7Z" transform="translate(100 100)" />
-</svg>
-
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml2 .letter',
+    scale: [4,1],
+    opacity: [0,1],
+    translateZ: 0,
+    easing: "easeOutExpo",
+    duration: 950,
+    delay: (el, i) => 70*i
+  }).add({
+    targets: '.ml2',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+</script> -->
 
 </body>
 </html>
